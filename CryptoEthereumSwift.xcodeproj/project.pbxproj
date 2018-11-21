@@ -18,7 +18,6 @@
 		1AD1D65120B7F009007AFF80 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D65020B7F009007AFF80 /* Crypto.swift */; };
 		1AD1D65220B7F07F007AFF80 /* Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD1D63620B7E95A007AFF80 /* Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1AD1D65420B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1D65320B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift */; };
-		1AD1D65620B7F252007AFF80 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		1AD1D64C20B7EF31007AFF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD1D65020B7F009007AFF80 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		1AD1D65320B7F112007AFF80 /* EllipticCurveEncrypterSecp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticCurveEncrypterSecp256k1.swift; sourceTree = "<group>"; };
-		1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD1D65620B7F252007AFF80 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +101,6 @@
 			children = (
 				1AD1D65720B7F2B0007AFF80 /* Source */,
 				1AD1D65820B7F2BD007AFF80 /* SupportingFiles */,
-				1AD1D65520B7F252007AFF80 /* CryptoSwift.framework */,
 			);
 			path = CryptoEthereumSwift;
 			sourceTree = "<group>";
@@ -488,7 +484,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +527,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
